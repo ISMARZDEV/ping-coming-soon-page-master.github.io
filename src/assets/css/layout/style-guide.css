@@ -1,0 +1,41 @@
+
+
+/* - Family: [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin)
+--FW-Libre-Franklin-300: 300; --FW-Libre-Franklin-600: 600; --FW-Libre-Franklin-700: 700;  
+--FF-Libre-Franklin: "Libre Franklin", sans-serif */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+
+    /* ## Colors */
+
+    /* ### Primary */
+
+    --Blue: hsl(223, 87%, 63%);
+
+    /* ### Secondary */
+
+    --Pale-Blue: hsl(223, 100%, 88%);
+    --Light-Red: hsl(354, 100%, 66%);
+
+    /* ### Neutral */
+
+    --Gray: hsl(0, 0%, 59%);
+    --Very-Dark-Blue: hsl(209, 33%, 12%);
+
+    /* Font-Weights */
+
+    --FW-Libre-Franklin-300: 300; 
+    --FW-Libre-Franklin-600: 600; 
+    --FW-Libre-Franklin-700: 700;  
+
+    /* Font-Size */
+
+    --FZ-15px: 0.9375rem;
+
+    /* Font-Family */
+
+    --FF-Libre-Franklin: "Libre Franklin", sans-serif 
+    
+}
