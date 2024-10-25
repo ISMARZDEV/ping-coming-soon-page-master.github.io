@@ -1,0 +1,48 @@
+form {
+    /* border: 1px solid black; */
+    width: 282px;
+    margin: 0 auto;
+}
+
+input[type="email"] {
+    font-size: 14px;
+    width: 100%;
+    height: 40px;
+    border-radius: 32px;
+    padding-left: 24px;
+    margin-bottom: 3px;
+    border: 2px solid gray;
+}
+
+/* Quitar el Subrayado al seleccionar un campo de texto*/
+input[type=email]:focus
+{
+    outline: none;
+}
+
+#error {
+    color: var(--Light-Red);
+    font-style: italic;
+    font-size: 0.75rem;
+    text-align: center;
+    visibility: hidden;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: var(--Blue);
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: var(--FW-600);
+    color: var(--Pale-Blue);
+    box-shadow: 3px 3px 5px var(--Blue);
+    margin-bottom: 70px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: hsl(223, 78%, 68%);;
+}
+

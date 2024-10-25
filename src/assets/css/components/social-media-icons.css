@@ -1,0 +1,31 @@
+.icons {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 30px;
+    /* border: 1px solid red; */
+}
+
+.allicon {
+    width: 1em;
+    height: 1em;
+}
+
+.icon-container {
+    fill: var(--Blue);
+    border: 1px solid var(--Pale-Blue);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+    place-content: center;
+    /* display: flex;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: center; */
+}
+
+.icon-container:hover{
+    background-color: var(--Blue);
+    fill: var(--Pale-Blue)
+}
